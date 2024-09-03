@@ -1,11 +1,88 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfólio pessoal</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    
-</body>
-</html>
+    tempo de acesso:
+    <p id="timer">0</p>
+
+    <script src="script.js">
+    </script>
+    <header>
+        <h1>Bem-vindo ao Meu Universo</h1>
+        <nav>
+            <ul>
+                <li><a href="#sobre">Sobre Mim</a></li>
+                <li><a href="#formacao">Formação</a></li>
+                <li><a href="#portfolio">Portfólio</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Sobre Mim -->
+        <section id="sobre">
+            <h2>Quem sou eu?</h2>
+            <div class="sobre-mim-container">
+                <img src="yo.enc" alt="Minha Foto" class="minha-imagem">
+                <div class="sobre-texto">
+                    <p>Meu nome é César Choque Vela, sou estudante da Uninter, cursando Análise e Desenvolvimento de Sistemas, em busca de entender o Universo da programação.</p>
+                    <p>Além de meus estudos, gosto bastante de passar tempo junto ao meu pet. Ele é um cachorro, e como pode ver, tentei criar uma versão pixel dele.</p>
+                </div>
+            </div>
+            <div class="sobre-pet-container">
+                <img src="chapito.gif" alt="Pixel" class="imagem-pet">
+                <div class="sobre-textopet">
+                    <p>Meu cachorro é mais que um companheiro; ele é meu conforto diário. Sempre ao meu lado, ele me faz sorrir mesmo nos dias difíceis, trazendo uma alegria simples e genuína que enche meu coração de gratidão.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Formação -->
+        <section id="formacao">
+            <h2>Minha Formação</h2>
+            <ul>
+                <li>Cursando Análise e Desenvolvimento de Sistemas - Uninter</li>
+                <li>Ensino Médio Completo - Colégio La Salle São Paulo</li>
+                <li>Idiomas: Português e Espanhol</li>
+            </ul>
+        </section>
+
+        <!-- Seção Portfólio -->
+        <section id="portfolio">
+            <h2>Meus Trabalhos</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/c%C3%A9sar-choque-vela-1033422b7/">LinkedIn</a></li>
+                <li><a href="https://github.com/C3S4R50">GitHub</a></li>
+            </ul>
+        </section>
+
+        <!-- Seção Contato -->
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" required></textarea>
+                
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="redes-sociais">
+                <br>
+                <br>
+                <br>
+                <a href="https://www.youtube.com/channel/UCu8CzIIec9XMrsAREQrizDQ" target="_blank"><img src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white"></a>
+                <a href="https://www.instagram.com/cesarvelaa/" target="_blank"><img src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white"></a>
+                <a href="1217854829892993040" target="_blank"><img src="https://img.shields.io/badge/Discord-7289DA?style=for-the-badge&logo=discord&logoColor=white"></a>
+                <a href="mailto:cesarchoquevela01@gmail.com"><img src="https://img.shields.io/badge/-Gmail-%23333?style=for-the-badge&logo=gmail&logoColor=white"></a>
+                <a href="https://www.linkedin.com/in/c%C3%A9sar-choque-vela-1033422b7/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%
